@@ -21,7 +21,7 @@ class Tabs extends React.Component {
 
   render() {
     return (
-      <ul>
+      <ul className="group">
         <h1 onClick={this.updateIndex.bind(this)}>one</h1>
         <h1 onClick={this.updateIndex.bind(this)}>two</h1>
         <h1 onClick={this.updateIndex.bind(this)}>three</h1>
